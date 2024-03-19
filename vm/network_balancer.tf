@@ -7,7 +7,7 @@ resource "yandex_lb_target_group" "servers_group" {
 
   target {
     subnet_id = yandex_vpc_subnet.subnet2.id
- #   address   = 
+ #   address   = 1
   }
 
 }
